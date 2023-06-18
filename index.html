@@ -15,17 +15,12 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
   
 </head>
-
 <body id="page-top">
   <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: rgb(130, 78, 87); height: 13%;">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: rgb(130, 78, 87); height: 100px">
       <div class="container">
-          <a class="" href="#"><img src="img/LogoPng.png" alt="foto" style="width: 50%;" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              Menu
-              <i class="fas fa-bars ms-1"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
+          <a class="distancia " href="#"><img class="fotoPatricia" src="img/LogoPng.png" alt="foto patricia"/></a>
+          <div  class=" navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                   <li  class="nav-item home"><a  class="nav-link" href="#masthead">Home</a></li>
                   <li class="nav-item servico"><a class="nav-link" href="#services">Serviços</a></li>
@@ -175,13 +170,11 @@
             $(".sobre").removeClass("corMenu")
             $(".servico").removeClass("corMenu")
 
-        }
-        else if (teste==2){
+        }else if (teste==2){
             $(".servico").addClass("corMenu")
             $(".sobre").removeClass("corMenu")
             $(".home").removeClass("corMenu")
-        }
-        else if (teste == 3){
+        }else if (teste == 3){
             $(".sobre").addClass("corMenu")
             $(".servico").removeClass("corMenu")
             $(".home").removeClass("corMenu")
