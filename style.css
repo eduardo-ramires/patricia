@@ -5,6 +5,12 @@
       }
     }
 
+
+  .fotoPatricia{
+    width: 55%;
+  }
+
+
     .corMenu{
         color: aliceblue;
          background-color: rgb(176, 96, 132);
@@ -3227,7 +3233,6 @@
       overflow-y: visible;
     }
   }
-  @media (min-width: 992px) {
     .navbar-expand-lg {
       flex-wrap: nowrap;
       justify-content: flex-start;
@@ -3279,7 +3284,6 @@
       padding: 0;
       overflow-y: visible;
     }
-  }
   @media (min-width: 1200px) {
     .navbar-expand-xl {
       flex-wrap: nowrap;
